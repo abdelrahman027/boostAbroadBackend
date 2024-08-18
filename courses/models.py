@@ -8,4 +8,4 @@ class University(models.Model):
     image = models.ImageField(upload_to='universities/', default='universities/default-service.jpg',blank=True,null=True)
 
     def __str__(self) :
-        return self.name +self.shortName
+        return self.name
